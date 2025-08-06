@@ -2,5 +2,4 @@
 sudo apt update
 sudo apt install nginx git -y
 cd /tmp && git clone https://github.com/nanii5656-nani/myproject.git
-sudo rm -rf /var/www/html/index.nginx-debian.html
 sudo cp -r /tmp/mysite/* /var/www/html/
